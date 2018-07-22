@@ -1,8 +1,5 @@
 // src/index.js
 
-const init = () => {
-  console.log("hello world");
-  return "hello world";
-};
+import getVoices from "./getVoices";
 
-export default init;
+export default { getVoices };
