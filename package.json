@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "description": "A simple text-to-speech web library.",
   "main": "lib/index.js",
+  "author": "Aidan Bane <aidanfbane@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blindbane/text2speech.git"
   },
-  "author": "Aidan Bane <aidanfbane@gmail.com>",
-  "license": "MIT",
   "homepage": "https://github.com/blindbane/text2speech.git#readme",
   "bugs": {
     "url": "https://github.com/blindbane/text2speech/issues"
