@@ -2,5 +2,6 @@
 
 import getVoices from "./getVoices";
 import createSpeech from "./createSpeech";
+import speak from "./speak";
 
-export default { getVoices, createSpeech };
+export default { getVoices, createSpeech, speak };
