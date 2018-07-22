@@ -9,7 +9,8 @@
     "build": "NODE_ENV=production rollup -c",
     "dev": "NODE_ENV=development rollup -c --watch",
     "test": "NODE_ENV=test jest",
-    "test:watch": "yarn test --watch"
+    "test:watch": "yarn test --watch",
+    "prepublish": "yarn build"
   },
   "repository": {
     "type": "git",
