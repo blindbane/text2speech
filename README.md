@@ -6,4 +6,13 @@ A simple text-to-speech web library.
 
 ## Usage
 
+```bash
+$ yarn add text2speech
+```
+
 ## Development
+
+```bash
+$ yarn
+$ yarn dev
+```

@@ -3,22 +3,12 @@
   "version": "0.0.0",
   "description": "A simple text-to-speech web library.",
   "main": "lib/index.js",
-  "author": "Aidan Bane <aidanfbane@gmail.com>",
-  "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "dev": "NODE_ENV=development rollup -c --watch",
     "test": "NODE_ENV=test jest",
     "test:watch": "yarn test --watch",
     "prepublish": "yarn build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/blindbane/text2speech.git"
-  },
-  "homepage": "https://github.com/blindbane/text2speech.git#readme",
-  "bugs": {
-    "url": "https://github.com/blindbane/text2speech/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -28,5 +18,15 @@
     "jest": "^23.4.1",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-node-resolve": "^3.3.0"
+  },
+  "author": "Aidan Bane <aidanfbane@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blindbane/text2speech.git"
+  },
+  "homepage": "https://github.com/blindbane/text2speech.git#readme",
+  "bugs": {
+    "url": "https://github.com/blindbane/text2speech/issues"
   }
 }
