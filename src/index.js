@@ -2,5 +2,5 @@
 const answer = 42;
 
 export default () => {
-  console.log(`the answers is ${answer}`);
+  console.log(`the lolanswers is ${answer}`);
 };
