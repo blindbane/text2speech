@@ -7,5 +7,15 @@
       }
     ]
   ],
-  "plugins": ["external-helpers"]
+  "env": {
+    "test": {
+      "presets": ["env"]
+    },
+    "development": {
+      "ignore": ["**/*.spec.js"]
+    },
+    "production": {
+      "ignore": ["**/*.spec.js"]
+    }
+  }
 }
