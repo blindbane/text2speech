@@ -1,9 +1,11 @@
-function getVoices() {
+function getVoices(lang = "en-US") {
   return new Promise((resolve, reject) => {
     // listen for onvoiceschanged event
 
     window.speechSynthesis.onvoiceschanged = function onvoiceschangedCallBack() {
-      resolve(window.speechSynthesis.getVoices());
+      resolve(
+        window.speechSynthesis.getVoices().filter(voice => lang === voice.lang)
+      );
     };
 
     // start request for cpu voices
