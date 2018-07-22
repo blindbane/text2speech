@@ -1,6 +1,8 @@
-// src/main.js
-const answer = 42;
+// src/index.js
 
-export default () => {
-  console.log(`the lolanswers is ${answer}`);
+const init = () => {
+  console.log("hello world");
+  return "hello world";
 };
+
+export default init;
